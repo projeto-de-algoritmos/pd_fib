@@ -18,6 +18,6 @@ def fibonacci(n):
        
     return FibArray[n]
 
-valor = int(input("Insira o valor do Fibonacci a ser calculado"))
+valor = int(input("Insira o valor do Fibonacci a ser calculado: "))
 
-print("Soma: " + str(fibonacci(valor)))
+print("Valor: " + str(fibonacci(valor)))
